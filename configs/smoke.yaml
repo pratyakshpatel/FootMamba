@@ -1,0 +1,17 @@
+data:
+  max_matches: 2
+
+features:
+  context_length: 10
+
+model:
+  d_model: 64
+  num_layers: 1
+
+training:
+  epochs: 1
+  batch_size: 16
+
+generation:
+  num_samples: 8
+  rollout_steps: 5

@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Data and outputs
+data/raw/*.parquet
+data/raw/*.json
+data/processed/*.parquet
+data/processed/*.pt
+data/processed/*.json
+outputs/checkpoints/*.pt
+outputs/case_studies/*.png
+outputs/case_studies/*.json
+outputs/metrics/*.json
+
+# Keep placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/checkpoints/.gitkeep
+!outputs/case_studies/.gitkeep
+!outputs/metrics/.gitkeep
